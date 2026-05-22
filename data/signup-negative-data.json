@@ -1,0 +1,60 @@
+{
+  "invalidEmails": [
+    {
+      "description": "Invalid special characters",
+      "value": "test!user#@gmail.com"
+    },
+    {
+      "description": "Double dots in username",
+      "value": "test..user"
+    },
+    {
+      "description": "Leading space in email",
+      "value": " testuser"
+    }
+  ],
+  "invalidPasswords": [
+    {
+      "description": "Too short password",
+      "value": "Short1"
+    },
+    {
+      "description": "Contains first name",
+      "value": "Kashyap123"
+    },
+    {
+      "description": "Whitespace only",
+      "value": "        "
+    }
+  ],
+  "invalidPhones": [
+    {
+      "description": "Too short number",
+      "value": "123"
+    },
+    {
+      "description": "Alphabetic characters",
+      "value": "12345abcde"
+    }
+  ],
+  "invalidDates": [
+    {
+      "description": "Underage registration attempt",
+      "month": "5",
+      "day": "15",
+      "year": "2020"
+    },
+    {
+      "description": "Unrealistic century old birthdate",
+      "month": "1",
+      "day": "1",
+      "year": "1850"
+    },
+    {
+      "description": "Future birth year",
+      "month": "12",
+      "day": "31",
+      "year": "2030"
+    }
+  ]
+}

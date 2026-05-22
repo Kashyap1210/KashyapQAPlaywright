@@ -1,0 +1,16 @@
+# Node modules
+node_modules/
+
+# Playwright reports and results
+test-results/
+playwright-report/
+blob-report/
+reports/
+
+# IDE files
+.vscode/
+.idea/
+
+# Interview PDF & lock files
+QA-Automation-Playwright-Practical-Task 1.pdf
+.~lock.QA-Automation-Playwright-Practical-Task 1.pdf#
