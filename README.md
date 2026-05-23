@@ -44,9 +44,10 @@ qa-playwright-task/
 
 Ensure [Node.js](https://nodejs.org/) (v18 or higher) is installed on your local machine.
 
-1. **Clone or navigate into the workspace**:
+1. **Clone the repository**:
    ```bash
-   cd e:\QA_Practical
+   git clone https://github.com/Kashyap1210/KashyapQAPlaywright.git
+   cd KashyapQAPlaywright
    ```
 
 2. **Install project dependencies**:
