@@ -69,6 +69,7 @@ Run your tests using the package-mapped npm scripts:
 | Description | Command |
 | :--- | :--- |
 | **Run entire test suite** | `npm test` |
+| **Run tests in Headed mode (Chromium)** | `npm run test:headed` |
 | **Run tests only on Chromium** | `npm run test:chromium` |
 | **Run tests only on Firefox** | `npm run test:firefox` |
 | **Run tests only on Mobile Emulation** | `npm run test:mobile` |
